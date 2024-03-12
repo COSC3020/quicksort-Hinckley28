@@ -14,3 +14,6 @@ recursive call considers.
 Analyse the time complexity of your implementation and give a $\Theta$ bound for
 its worst-case runtime. Add your answer, including your reasoning, to this
 markdown file.
+
+Answer: The worst case runtime for this iterative version of quicksort would still be $\Theta$(n^2).
+This is because the worst case would still remain where the number that is chosen as the pivot at each iterative step is the minimum or maximum value in the subarray.
